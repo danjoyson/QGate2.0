@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CustomControls\BindablePasswordBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddOperador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddPieza.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\deleteOperador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DeletePieza.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ImpresionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MenuPaso.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WaitView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomControls\BindablePasswordBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddOperador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddPieza.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\deleteOperador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\DeletePieza.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ImpresionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MenuPaso.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WaitView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,135 @@
+﻿<Window x:Class="QGATEv1._0.View.deleteOperador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QGATEv1._0.View"
+        mc:Ignorable="d"
+        Title="deleteOperador" Height="550" Width="800">
+    <Window.Background>
+        <SolidColorBrush Color="#D8D8D8"/>
+    </Window.Background>
+    <StackPanel>
+        <Grid Margin="0,0,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <!-- La primera columna ocupa el espacio disponible -->
+                <ColumnDefinition Width="*"/>
+                <!-- La segunda columna ocupa el espacio disponible -->
+            </Grid.ColumnDefinitions>
+            <Image Grid.Row="0" Grid.Column="1" Source="/Resources/logowb.png" Height="60" Width="Auto" HorizontalAlignment="Right" Margin="100,10,10,0">
+
+            </Image>
+        </Grid>
+        <Grid Margin="0,20,10,30" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="ReturnBtn" 
+                        Content="" 
+                        Foreground="White"
+                        Margin="60,0,10,0"
+                        Width="80"
+                        Height="80"
+                    
+                        Grid.Column="0" Grid.Row="0">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="LoginBorder" Background="{TemplateBinding Background}"
+                                                CornerRadius="2">
+                                        <ContentPresenter HorizontalAlignment="Center" 
+                                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="AliceBlue" TargetName="LoginBorder"  />
+                                            <Setter Property="TextBlock.Foreground" Value="Black"  TargetName="LoginBorder" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+                <Button.Background >
+                    <ImageBrush ImageSource="/Resources/return.png"/>
+                </Button.Background>
+            </Button>
+
+
+            <Label Grid.Row="0" Grid.Column="3" Margin="10,0,60,0">
+                <Image Source="/Resources/opIcon.png" Width="100" Height="100" />
+            </Label>
+        </Grid>
+        <Grid Margin="0,30,0,30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="110,0,60,0" Grid.Column="0" Grid.Row="0"><Bold>Número de operador a<LineBreak/>eliminar</Bold></TextBlock>
+            <TextBox  Grid.Column="1"
+                  Grid.Row="0"
+                  Margin="10,0,50,0"
+                  Background="Beige"
+                  Height="50"
+                  BorderThickness="0,0,0,1"
+                  HorizontalAlignment="Stretch"
+                  Text=""/>
+        </Grid>
+        <Grid Margin="10,20,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button x:Name="DeletePiezaBtn" 
+                        Content="Eliminar" 
+                        Foreground="White"
+                        Background="#FA5858"
+                        Margin="160,5,150,0"
+                        Height="60"
+                                        Grid.Column="1" Grid.Row="0">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border x:Name="LoginBorder" Background="{TemplateBinding Background}"
+                                                CornerRadius="20">
+                                        <ContentPresenter HorizontalAlignment="Center" 
+                                                              VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="AliceBlue" TargetName="LoginBorder"  />
+                                            <Setter Property="TextBlock.Foreground" Value="Black"  TargetName="LoginBorder" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+
+    </StackPanel>
+</Window>
