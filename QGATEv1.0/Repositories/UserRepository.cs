@@ -13,6 +13,7 @@ namespace QGATEv1._0.Model
 {
     public class UserRepository : RepositoryBase, IUserRepository
     {
+        
         public void Add(UserModel userModel)
         {
             throw new NotImplementedException();
@@ -26,9 +27,9 @@ namespace QGATEv1._0.Model
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "select *from [User] where username=@username and [password]=@password";
-                command.Parameters.Add("@username", SqlDbType.NVarChar).Value = credential.UserName;
-                command.Parameters.Add("@password", SqlDbType.NVarChar).Value = credential.Password;
+                command.CommandText = "select * from [Operador] where numOperador=@numOperador ";
+                command.Parameters.Add("@username", SqlDbType.SmallInt).Value = credential.UserName;
+                //command.Parameters.Add("@password", SqlDbType.NVarChar).Value = credential.Password;
                 validUser = command.ExecuteScalar() == null ? false : true;
             }
             return validUser;

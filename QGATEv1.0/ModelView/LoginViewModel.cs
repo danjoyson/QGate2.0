@@ -20,7 +20,9 @@ namespace QGATEv1._0.ModelView
         private string _username;
         private SecureString _password;
         private string _errorMessage;
-        
+        private string _numOperador;
+        private string _userName;
+        private string _numPieza;
         private bool _isViewVisible = true;
 
         private IUserRepository userRepository;
@@ -38,6 +40,34 @@ namespace QGATEv1._0.ModelView
             {
                 _username = value;
                 OnPropertyChanged(nameof(Username));
+            }
+        }
+
+        public string Numpieza
+        {
+            get
+            {
+                return _numPieza;
+            }
+
+            set
+            {
+                _numPieza = value;
+                OnPropertyChanged(nameof(Numpieza));
+            }
+        }
+
+        public string Numoperador
+        {
+            get
+            {
+                return _numOperador;
+            }
+
+            set
+            {
+                _numOperador = value;
+                OnPropertyChanged(nameof(Numoperador));
             }
         }
 
@@ -90,6 +120,8 @@ namespace QGATEv1._0.ModelView
         public ICommand RememberPasswordCommand { get; }
 
         public ICommand _showUser;
+
+        public ICommand AuthenticateCheck;
 
         //Constructor
         public LoginViewModel()
@@ -145,6 +177,22 @@ namespace QGATEv1._0.ModelView
         private void ShowUser()
         {
             MessageBox.Show("Trying to show message"+_username +" -- " +Password.ToString());
+        }
+
+        public ICommand AuthenticateChecking
+        {
+            get
+            {
+                if (AuthenticateCheck== null)
+                    AuthenticateCheck = new DelegateCommand(param => this.ShowLoginData(), null);
+
+                return AuthenticateCheck;
+            }
+        }
+
+        private void ShowLoginData()
+        {
+            MessageBox.Show("Data putted in the checking inputs" + _numOperador + " -- " + _numPieza);
         }
     }
 }

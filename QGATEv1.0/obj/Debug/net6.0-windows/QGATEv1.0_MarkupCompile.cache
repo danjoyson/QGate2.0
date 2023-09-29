@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\vazquezd\source\repos\QGATEv1.0\QGATEv1.0\obj\Debug\net6.0-windows\
+C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\obj\Debug\net6.0-windows\
 QGATEv1._0
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\vazquezd\source\repos\QGATEv1.0\QGATEv1.0\App.xaml
+C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\App.xaml
 12-601762171
 
-231490239458
+27222908999
 200-634071819
 CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\AddOperador.xaml;View\AddPieza.xaml;View\AdminLogin.xaml;View\AdminMenu.xaml;View\deleteOperador.xaml;View\DeletePieza.xaml;View\ImpresionView.xaml;View\MainMenu.xaml;View\MenuPaso.xaml;View\WaitView.xaml;
 

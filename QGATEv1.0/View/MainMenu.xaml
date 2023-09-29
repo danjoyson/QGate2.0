@@ -3,12 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:QGATEv1._0.View"
+        xmlns:local="clr-namespace:QGATEv1._0.View" xmlns:ModelView="clr-namespace:QGATEv1._0.ModelView" xmlns:customcontrols="clr-namespace:QGATEv1._0.CustomControls"
         mc:Ignorable="d"
         Title="MainMenu" Height="790" Width="1100">
     <Window.Background>
         <SolidColorBrush Color="#D8D8D8"/>
     </Window.Background>
+    <Window.DataContext>
+        <ModelView:LoginViewModel />
+    </Window.DataContext>
     <StackPanel>
         <Grid Margin="0,0,10,10">
             <Grid.RowDefinitions>
@@ -84,7 +87,8 @@
                   Background="Beige"
                   BorderThickness="0,0,0,1"
                   HorizontalAlignment="center"
-                  Text=""/>
+                  Text="{Binding Numoperador}"
+                  FontSize="26"/>
             <TextBlock 
                    Grid.Row="3"
                        Grid.Column="1"
@@ -94,11 +98,12 @@
                   Grid.Row="4"
                   Padding="0,5"
                   Width="685"
-                      Height="70"
-                      Background="Beige"
+                  Height="70"
+                  Background="Beige"
                   BorderThickness="0,0,0,1"
                   HorizontalAlignment="center"
-                  Text=""/>
+                  FontSize="26"
+                  Text="{Binding Numpieza}"/>
         </Grid>
         <Grid Margin="100,90,100,0" Height="90">
             <Grid.RowDefinitions>
@@ -144,7 +149,8 @@
                         Background="#084B8A"
                         Height="Auto"
                     
-                        Grid.Column="1" Grid.Row="0" FontSize="18">
+                        Grid.Column="1" Grid.Row="0" FontSize="18"
+                    Command="{Binding AuthenticateChecking}" >
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Template">

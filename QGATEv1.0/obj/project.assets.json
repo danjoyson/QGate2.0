@@ -691,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vazquezd\\source\\repos\\QGATEv1.0\\QGATEv1.0\\QGATEv1.0.csproj",
+      "projectUniqueName": "C:\\Users\\vazquezd\\source\\repos\\QGate2.0\\QGATEv1.0\\QGATEv1.0.csproj",
       "projectName": "QGATEv1.0",
-      "projectPath": "C:\\Users\\vazquezd\\source\\repos\\QGATEv1.0\\QGATEv1.0\\QGATEv1.0.csproj",
+      "projectPath": "C:\\Users\\vazquezd\\source\\repos\\QGate2.0\\QGATEv1.0\\QGATEv1.0.csproj",
       "packagesPath": "C:\\Users\\vazquezd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vazquezd\\source\\repos\\QGATEv1.0\\QGATEv1.0\\obj\\",
+      "outputPath": "C:\\Users\\vazquezd\\source\\repos\\QGate2.0\\QGATEv1.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vazquezd\\AppData\\Roaming\\NuGet\\NuGet.Config",

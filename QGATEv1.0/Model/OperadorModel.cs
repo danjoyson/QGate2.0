@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace QGATEv1._0.Model
 {
-    class OperadorModel
+    public class OperadorModel
     {
+        public int numOperador { get; set; }
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+
     }
 }

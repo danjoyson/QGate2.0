@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aIDdJAQbI2XuFSG5VhPQW2cyvTmiUBAAHJMWn8piQD9vqYCA20c/boqlnu1c5Xa5SY1AneKcSinnSkhZ9zfBLg==",
+  "dgSpecHash": "F/sTco1kDUXdaB2PO9m7K0bFWAXLE+WvtKLDXv/s8yp+PAKv3fZpg6jp0uziL0HEncqsJazl5ghKbBpvXBq0vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vazquezd\\source\\repos\\QGATEv1.0\\QGATEv1.0\\QGATEv1.0.csproj",
+  "projectFilePath": "C:\\Users\\vazquezd\\source\\repos\\QGate2.0\\QGATEv1.0\\QGATEv1.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vazquezd\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

@@ -12,7 +12,8 @@ namespace QGATEv1._0.Repositories
         private readonly string _connectionString;
         public RepositoryBase()
         {
-            _connectionString = "Server=(local); Database=MVVMLoginDb; Integrated Security=true";
+            
+            _connectionString = "Server=192.168.113.47,56830; Database=TestQGATE; Integrated Security=true; encrypt = true; trustServerCertificate = true; User ID = QGATEWriter ;Password = OpPrMx73db";
         }
         protected SqlConnection GetConnection()
         {

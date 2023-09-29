@@ -71,7 +71,7 @@ namespace QGATEv1._0.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/QGATEv1.0;V1.0.0.0;component/view/adminlogin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QGATEv1.0;component/view/adminlogin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\AdminLogin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
