@@ -13,7 +13,7 @@ namespace QGATEv1._0.Repositories
         public RepositoryBase()
         {
             
-            _connectionString = "Server=192.168.113.47,56830; Database=TestQGATE; Integrated Security=true; encrypt = true; trustServerCertificate = true; User ID = QGATEWriter ;Password = OpPrMx73db";
+            _connectionString = "Data Source=" + "192.168.113.47" + "," + "56830" + ";Initial Catalog=" + "TestQGATE" + "; encrypt = true; trustServerCertificate = true; User ID=" + "QGATEWriter" + ";Password=" + "OpPrMx73db"; ;
         }
         protected SqlConnection GetConnection()
         {

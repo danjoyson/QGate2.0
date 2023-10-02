@@ -62,7 +62,7 @@
                    HorizontalAlignment="Left" FontSize="16"/>
                 <customcontrols:BindablePasswordBox Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                                         Height="28"                            
-                                                        Margin="0,5,55,0" Grid.Row="3">
+                                                        Margin="0,5,55,0" Grid.Row="3" VerticalAlignment="Top">
                     
                 </customcontrols:BindablePasswordBox>
                 
@@ -75,7 +75,7 @@
                     Background="#084B8A"
                     Height="35"
                     Width="250"
-                Command="{Binding ShowUserCommand}" >
+                Command="{Binding LoginCommand}" >
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Template">

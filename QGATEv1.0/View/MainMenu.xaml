@@ -10,7 +10,7 @@
         <SolidColorBrush Color="#D8D8D8"/>
     </Window.Background>
     <Window.DataContext>
-        <ModelView:LoginViewModel />
+        <ModelView:CheckPieza />
     </Window.DataContext>
     <StackPanel>
         <Grid Margin="0,0,10,10">
@@ -150,7 +150,7 @@
                         Height="Auto"
                     
                         Grid.Column="1" Grid.Row="0" FontSize="18"
-                    Command="{Binding AuthenticateChecking}" >
+                    Command="{Binding LoginCommand}" >
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Template">

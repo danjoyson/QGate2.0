@@ -8,6 +8,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using QGATEv1._0.Repositories;
+using System.Data.SqlClient;
 
 namespace QGATEv1._0.Model
 {
@@ -19,7 +20,7 @@ namespace QGATEv1._0.Model
             throw new NotImplementedException();
         }
 
-        public bool AuthenticateUser(NetworkCredential credential)
+        public bool AuthenticateOperador(int numOperador)
         {
             bool validUser;
             using (var connection = GetConnection())
@@ -28,17 +29,13 @@ namespace QGATEv1._0.Model
                 connection.Open();
                 command.Connection = connection;
                 command.CommandText = "select * from [Operador] where numOperador=@numOperador ";
-                command.Parameters.Add("@numOperador", SqlDbType.SmallInt).Value = credential.UserName;
+                command.Parameters.Add("@numOperador", SqlDbType.SmallInt).Value = numOperador;
                 //command.Parameters.Add("@password", SqlDbType.NVarChar).Value = credential.Password;
                 validUser = command.ExecuteScalar() == null ? false : true;
             }
             return validUser;
         }
 
-        public void Edit(OperadorModel userModel)
-        {
-            throw new NotImplementedException();
-        }
         public IEnumerable<OperadorModel> GetByAll()
         {
             throw new NotImplementedException();
