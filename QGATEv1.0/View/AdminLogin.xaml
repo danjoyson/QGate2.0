@@ -75,7 +75,7 @@
                     Background="#084B8A"
                     Height="35"
                     Width="250"
-                Command="{Binding LoginCommand}" >
+                Command="{Binding AuthenticateChecking}" >
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Template">

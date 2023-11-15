@@ -11,6 +11,8 @@ using System.Windows.Input;
 using QGATEv1._0.Model;
 using Syncfusion.Windows.Shared;
 using System.Windows;
+using System.Windows.Navigation;
+using QGATEv1._0.View;
 
 namespace QGATEv1._0.ModelView
 {
@@ -192,7 +194,11 @@ namespace QGATEv1._0.ModelView
 
         private void ShowLoginData()
         {
-            MessageBox.Show("Data putted in the checking inputs" + _numOperador + " -- " + _numPieza);
+            MessageBox.Show("Data putted in the checking inputs :   " + _username+ " -- " + _password);
+            
+            MainMenu mp = new MainMenu();
+            mp.Show();
+            
         }
     }
 }

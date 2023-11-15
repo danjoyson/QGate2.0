@@ -110,3 +110,5 @@ C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\obj\Debug\net6.0-windows\refin
 C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\obj\Debug\net6.0-windows\QGATEv1.0.pdb
 C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\obj\Debug\net6.0-windows\QGATEv1.0.genruntimeconfig.cache
 C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\obj\Debug\net6.0-windows\ref\QGATEv1.0.dll
+C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\vazquezd\source\repos\QGate2.0\QGATEv1.0\bin\Debug\net6.0-windows\EntityFramework.dll

@@ -8,5 +8,6 @@ namespace QGATEv1._0.ModelView
 {
     public class CustomerViewModel:ViewModelBase
     {
+
     }
 }

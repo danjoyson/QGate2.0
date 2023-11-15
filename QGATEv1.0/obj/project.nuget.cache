@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "F/sTco1kDUXdaB2PO9m7K0bFWAXLE+WvtKLDXv/s8yp+PAKv3fZpg6jp0uziL0HEncqsJazl5ghKbBpvXBq0vw==",
+  "dgSpecHash": "U07+Lld5Q7IaAU1fMx7klR4tFcM2e9hlBzy4Ott0glQVseoEXgLQ4FD7KP32n/4cq0WDCK3nB+PaOhAwKD1LOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vazquezd\\source\\repos\\QGate2.0\\QGATEv1.0\\QGATEv1.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vazquezd\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -14,9 +17,16 @@
     "C:\\Users\\vazquezd\\.nuget\\packages\\syncfusion.licensing\\23.1.38\\syncfusion.licensing.23.1.38.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\syncfusion.sfprogressbar.wpf\\23.1.38\\syncfusion.sfprogressbar.wpf.23.1.38.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\syncfusion.shared.wpf\\23.1.38\\syncfusion.shared.wpf.23.1.38.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\vazquezd\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\vazquezd\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
   ],
   "logs": [
